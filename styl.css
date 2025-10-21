@@ -1,0 +1,213 @@
+*{
+    margin: 0; /* Quitamos márgenes por defecto */
+    padding: 0; /* Quitamos rellenos por defecto */
+    box-sizing: border-box; /* Para que se incluya el padding y el borde */ /*imagen de fondo para toda la página*/
+}
+body{
+    margin: 0; /* Quita márgenes por defecto */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url(img/f1ff6-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#contenedor{
+    border: 7px solid brown;
+    width: 100%;
+    margin: 25px auto;
+    margin-bottom: 0;
+}
+#cabecera{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: column; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    position: fixed; /* 🔹 Fija la cabecera */
+    background-image: url(img/f1ff6-5.jpg);
+    background-size: cover;
+    top: 0px; /* La ancla arriba */
+    left: 0px;
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Encima del contenido */
+    border-top: 7px solid brown;
+    border-left: 7px solid brown;
+    border-right: 7px solid brown;
+}
+#cabecera h1{
+    color: rgb(42, 5, 75);
+    text-shadow: 2px 12px 12px plum;
+    margin-bottom: 25px;
+    font-family: "Playwrite DE SAS", cursive;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#cabecera p{
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#cabecera .pripa{
+    font-weight: normal;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#inicio{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+}
+#inicio ul{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    padding: 10px;
+}
+#inicio ul li{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+}
+#inicio ul li a{
+    color: darkred;
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    text-decoration: none;
+    margin-bottom: -35px;
+}
+#inicio .terpa{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+#inicio ul li a:hover{
+    background-color:chocolate;
+    color: white;
+    border-radius: 5px;
+}
+#cuerpo{
+    display: flex; /* Flexbox para acomodar elementos */
+    flex-direction: column; /* Elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+    margin: 10px; /* Espacio fuera */
+    padding: 20px; /* Espacio dentro */
+    margin-top: 110px;
+}
+#cuerpo img{
+    display: flex; /* Flexbox para acomodar elementos */
+    flex-direction: column; /* Elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+    margin: 10px; /* Espacio fuera */
+    padding: 20px; /* Espacio dentro */
+    box-shadow: 2px 2px 2px 2px black;
+}
+#cuerpo p{
+    margin: 20px;
+    padding: 10px;
+}
+#cuerpo .ima1{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: 790px;
+}
+#cuerpo .ima2{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#cuerpo .ima3{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 30px;
+    margin-right: -770px;
+}
+#cuerpo .ima4{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: -770px;
+}
+#cuerpo .ima5{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 317px;
+    margin-left: 10px;
+}
+#cuerpo .ima6{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 790px;
+}
+#cuerpo .one{
+    margin-top: 255px;
+    margin-right: 780px;
+}
+#cuerpo .two{
+    margin-top: -55px;
+    margin-left: 30px;
+}
+#cuerpo .thre{
+    margin-top: -60px;
+    margin-right: -775px;
+}
+#cuerpo .four{
+    margin-top: 220px;
+    margin-left: -750px;
+}
+#cuerpo .five{
+    margin-top: -59px;
+    margin-right: 10px;
+}
+#cuerpo .six{
+    margin-top: -58px;
+    margin-left: 819px;
+}
+#final{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    margin-left: 655px;
+}
+#final img{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    margin-bottom: 70px;
+    margin-left: 83px;
+}
+.imagen2{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
+.imagen3{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}

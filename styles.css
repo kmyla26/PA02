@@ -1,0 +1,238 @@
+*{
+    margin: 0; /* Quitamos márgenes por defecto */
+    padding: 0; /* Quitamos rellenos por defecto */
+    box-sizing: border-box; /* Para que se incluya el padding y el borde */ /*imagen de fondo para toda la página*/
+}
+body{
+    margin: 0; /* Quita márgenes por defecto */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url(img/f1ff6-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#contenedor{
+    width: 100%;
+    margin: 25px auto;
+    border: 7px solid brown;
+    margin-bottom: 0;
+}
+#cabecera{
+    background-image: url(img/f1ff6-5.jpg);
+    background-size: cover;
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: column; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    position: fixed; /* 🔹 Fija la cabecera */
+    top: 0px; /* La ancla arriba */
+    left: 0px;
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Encima del contenido */
+    border-top: 7px solid brown;
+    border-left: 7px solid brown;
+    border-right: 7px solid brown;
+}
+#cabecera h1{
+    color: black;
+    text-shadow: 2px 12px 12px gold;
+    margin-bottom: 25px;
+    font-family: "Playwrite DE SAS", cursive;
+    font-size: 50px;
+    margin-top: 50px;
+}
+#iconos .imagen1{
+    margin-top: 210px;
+    width: 900px;
+    height: 400px;
+    border-radius: 0%;
+}
+#inicio{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+}
+#inicio ul{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    padding: 10px;
+}
+#inicio ul li{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+}
+#inicio ul li a{
+    color: darkred;
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+#inicio .pripa{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+#inicio ul li a:hover{
+    background-color:chocolate;
+    color: white;
+    border-radius: 5px;
+}
+#cuerpo{
+    display: flex; /* Flexbox para acomodar elementos */
+    flex-direction: column; /* Elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+    margin: 10px; /* Espacio fuera */
+    padding: 20px; /* Espacio dentro */
+}
+.home{
+    border-radius: 50%;
+    width: 100px;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 1240px;
+}
+#cuerpo h6{
+    margin-left: 1240px;
+    font-size: medium;
+}
+#cuerpo h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#cuerpo p{
+    margin: 20px;
+    padding: 10px;
+}
+#cuerpo .pure1{
+    width: 250px;
+    height: 250px;
+    margin-top: 800px;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-left: -995px;
+}
+#cuerpo .parra1{
+    width: 1265px;
+    margin-left: 95px;
+    margin-right: 96px;
+}
+.parra1{
+    text-align: justify;
+}
+#cuerpo .parra2{
+    margin-left: 335px;
+}
+.parra2{
+    width: 950px;
+    text-align: justify;
+}
+#cuerpo .pure2{
+    width: 250px;
+    height: 200px;
+    margin-top: 1027px;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-left: 995px;
+}
+#cuerpo .parra3{
+    margin-left: 15px;
+    margin-right: 330px;
+}
+.parra3{
+    width: 950px;
+    text-align: justify;
+}
+#cuerpo .parra4{
+    margin-left: 35px;
+    margin-right: 37px;
+}
+.parra4{
+    width: 1265px;
+    text-align: justify;
+}
+#preend{
+    display: flex; /* Flexbox para acomodar elementos */
+    flex-direction: column; /* Elementos en fila */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center;
+    margin: 10px; /* Espacio fuera */
+    padding: 20px; /* Espacio dentro */
+}
+#preend h3{
+    margin-top: -65px;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+#preend p{
+    margin: 20px;
+    padding: 10px;
+}
+#preend .parra1{
+    width: 1265px;
+    margin-left: 95px;
+    margin-right: 96px;
+}
+#preend .parra2{
+    margin-left: -292px;
+}
+#preend .parra3{
+    width: 1267px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+#preend .parra5{
+    margin-right: 535px;
+}
+.parra5{
+    width: 750px;
+    text-align: justify;
+}
+#preend .miel{
+    width: 250px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-left: 995px;
+}
+#final{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    margin-left: 710px;
+    margin-top: 60px;
+}
+#final img{
+    display: flex; /* Usamos Flexbox para acomodar los elementos */
+    flex-direction: row; /* Elementos en fila horizontal */
+    justify-content: space-between; /* Espacio entre ellos */
+    align-items: center; /* Alineados al centro*/
+    flex-wrap: wrap; /* Que las lineas se bajen si ya no hay espacio */
+    margin: 10px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+}
+.imagen2{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
+.imagen3{
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
