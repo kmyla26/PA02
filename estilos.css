@@ -109,6 +109,8 @@ body{
 }
 #iconos img{
     margin-left: 60px;
+    overflow: hidden;
+    pointer-events: none;
 }
 .imagen2{
     width: 40px;
@@ -122,5 +124,6 @@ body{
     border-radius: 50%;
     margin-left: 20px;
 }
+
 
 
