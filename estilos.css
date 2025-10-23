@@ -5,6 +5,8 @@
 }
 #contenedor{
     width: 100%;
+    margin: 25px auto;
+    margin-bottom: 0;
 }
 body{
     margin: 0; /* Quita márgenes por defecto */
@@ -120,4 +122,5 @@ body{
     border-radius: 50%;
     margin-left: 20px;
 }
+
 
